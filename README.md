@@ -6,10 +6,10 @@ In this lab, we shall implement PCA, mainly using Numpy library in Python. Here,
 
 ## Objectives
 You will be able to :
-- Implement Principle Component Analysis using Python and Numpy 
+- Implement Principal Component Analysis using Python and Numpy 
 - Generate Multivariate datasets using covariance and mean matrices
 - Create 3 dimensional scatter plots using numpy and matplotlib
-- Visualize the results of PCA (principle components) in a low dimensional space
+- Visualize the results of PCA (principal components) in a low dimensional space
 
 ## The PCA approach
 
@@ -172,7 +172,7 @@ This step is not necessary for PCA but it is a good idea to visualize the eigen 
 
 
 ```python
-# Uncomment and run below to visualize your principle components 
+# Uncomment and run below to visualize your principal components 
 
 # %matplotlib inline
 
