@@ -1,5 +1,5 @@
 
-# PCA Implementation and Visualization in in Python and Numpy
+# PCA Implementation and Visualization in Python and Numpy - Lab
 
 ## Introduction
 In this lab, we shall implement PCA, mainly using Numpy library in Python. Here, our desired outcome of the PCA is to project a feature space on a smaller subspace that preserves the variance of data. We shall look into performing linear data reduction and visualization with PCA. A possible application of this technique would be pattern classification, while reducing the computational costs and the error of parameter estimation by reducing the number of dimensions of our feature space, by extracting a subspace that describes the variance of complete dataset. 
