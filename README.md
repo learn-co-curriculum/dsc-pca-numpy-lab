@@ -294,7 +294,7 @@ Next, calculate the eigenvectors for your covariance matrix.
 ```python
 #Your code here
 import numpy as np
-eig_values, eig_vectors = np.linalg.eig(corr_mat)
+eig_values, eig_vectors = np.linalg.eig(cov_mat)
 ```
 
 ## Sorting the Eigenvectors to Determine Primary Components
