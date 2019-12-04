@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Now that you have high level overview of PCA as well as some of the details in the algorithm itself, its time to practice implementing PCA on your own using the NumPy package. 
+Now that you have a high level overview of PCA as well as some of the details of the algorithm itself, its time to practice implementing PCA on your own using the NumPy package. 
 
 ## Objectives
 
@@ -11,60 +11,72 @@ You will be able to:
     
 * Implement PCA from scratch using NumPy
 
-## Import the Data
+## Import the data
 
-To start, import the data stored in the file 'foodusa.csv'.
+- Import the data stored in the file `'foodusa.csv'` (set `index_col=0`)
+- Print the first five rows of the DataFrame 
 
 
 ```python
-#Your code here
+import pandas as pd
+data = None
+
+
 ```
 
-## Normalize the Data
+## Normalize the data
 
-Next, normalize your data by subtracting the feature mean from each of the columns
+Next, normalize your data by subtracting the mean from each of the columns
 
 
 ```python
-#Your code here
+data = None
+data.head()
 ```
 
-## Calculate the Covariance Matrix
+## Calculate the covariance matrix
 
-The next step for PCA is to calculate to covariance matrix for your normalized data. Do so here.
+The next step is to calculate the covariance matrix for your normalized data. 
 
 
 ```python
-#Your code here
+cov_mat = None
+cov_mat
 ```
 
-## Calculate the Eigenvectors
+## Calculate the eigenvectors
 
-Next, calculate the eigenvectors for your covariance matrix.
+Next, calculate the eigenvectors for your covariance matrix. 
 
 
 ```python
-#Your code here
+import numpy as np
+eig_values, eig_vectors = None
 ```
 
-## Sorting the Eigenvectors to Determine Primary Components
+## Sort the eigenvectors 
 
-Great! Now that you have the eigenvectors and their associated eigenvalues, sort the eigenvectors based on their eigenvalues!
+Great! Now that you have the eigenvectors and their associated eigenvalues, sort the eigenvectors based on their eigenvalues to determine primary components!
 
 
 ```python
-#Your code here
+# Get the index values of the sorted eigenvalues
+e_indices = None
+
+# Sort 
+eigenvectors_sorted = None
+eigenvectors_sorted
 ```
 
-## Reprojecting the Data
+## Reprojecting the data
 
-Finally, reproject the dataset using your eigenvectors. Reproject the dataset down to 2 dimensions.
+Finally, reproject the dataset using your eigenvectors. Reproject this dataset down to 2 dimensions.
 
 
 ```python
-#Your code here
+
 ```
 
 ## Summary
 
-Well done! You've now coded PCA on your own using NumPy! With that, it's time to look at further application of PCA.
+Well done! You've now coded PCA on your own using NumPy! With that, it's time to look at further applications of PCA.
