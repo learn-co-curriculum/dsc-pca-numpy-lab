@@ -1,9 +1,8 @@
-
 # Performing Principal Component Analysis (PCA) - Lab
 
 ## Introduction
 
-Now that you have a high level overview of PCA as well as some of the details of the algorithm itself, its time to practice implementing PCA on your own using the NumPy package. 
+Now that you have a high-level overview of PCA, as well as some of the details of the algorithm itself, it's time to practice implementing PCA on your own using the NumPy package. 
 
 ## Objectives
 
@@ -117,7 +116,7 @@ data.head()
 
 ## Normalize the data
 
-Next, normalize your data by subtracting the mean from each of the columns
+Next, normalize your data by subtracting the mean from each of the columns.
 
 
 ```python
@@ -309,7 +308,7 @@ cov_mat
 
 ## Calculate the eigenvectors
 
-Next, calculate the eigenvectors for your covariance matrix. 
+Next, calculate the eigenvectors and eigenvalues for your covariance matrix. 
 
 
 ```python
